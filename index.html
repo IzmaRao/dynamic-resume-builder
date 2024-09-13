@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./main.js">
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.min.js"></script>
+</head>
+<body>
+        <form action="" id="resumeform">
+            <div class="sec-div">
+            <div class="main-div">
+            <div class="name"><p>Name:</p>
+            <input class="input" id="Name" placeholder="Enter Your Name" type="text" title="Name"/>
+            </div>
+            <br />
+            <br />
+            <!-- -->
+            <div class="email"><p>Email:</p>
+            <input id="Email" placeholder="Enter Your Email ID" class="input" type="email" title="Email"/>
+            </div>
+            <br />
+            <br />
+            <div class="phone"><p>Phone:</p>
+            <input id="Phone" placeholder="Enter Your Phone Number" class="input" type="number" title="Phone"/>
+            </div>
+            <br />
+            <br />
+            <!-- -->
+            <div class="education"><p>Education:</p>
+            <textarea type="text" class="input" id="Education" title="Education" rows="4" cols="30" placeholder="Enter Your Qulification"></textarea> 
+            </div>
+            <br />
+            <br />
+            <!-- -->
+            <div class="Skill"><p>Skills:</p>
+            <textarea type="text" class="input" id="Skill" title="Skill" rows="4" cols="30" placeholder="Enter Your Skills"></textarea>
+            </div>
+            <br />
+            <br />
+            <!-- -->
+            <div class="experience"><p>Experience:</p>
+            <textarea type="text" class="input" id="Experience" title="Experience" rows="4" cols="30" placeholder="Enter Your Experience"></textarea>
+           </div>
+            <br />
+            <br />
+            <!-- -->
+            <div class="uploadimg"><p>Upload Image:</p>
+            <input id="Uploadimg" placeholder="Upload Your Image" class="input"  title="Upload" type="file" name="dp"/>
+            </div>
+            <br />
+            <br />
+            <!-- -->
+            <div class="submitbutton">
+            <button id="Print-Button" class="input"  title="submit" type="submit" >Generate Resume</button>
+            <!-- <button id="Download-Button" class="input" title="download" type="button" >Download Resume</button>     -->
+        </div>
+            <br />
+            <br />
+        
+        
+        <div id="resumeOutput">
+        </div>
+        <script src="main.js"></script>
+    </form>
+</div>
+</div>
+        
+    
+</body>
+</html>
